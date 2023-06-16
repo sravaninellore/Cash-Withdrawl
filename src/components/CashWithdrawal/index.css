@@ -1,0 +1,124 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #150b3e;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  max-width: 310px;
+}
+
+.starting-letter {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  text-align: center;
+  padding-top: 16px;
+  padding-right: 2px;
+}
+
+.profile-name {
+  color: #d4d2db;
+  font-size: 17px;
+  margin-left: 10px;
+  font-family: 'Roboto';
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.price-currency {
+  text-align: center;
+}
+
+.balance-heading {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.price {
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'Roboto';
+}
+
+.currency {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+.withdraw-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 14px;
+}
+
+.choose-option {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.error-msg {
+  color: rgb(177, 30, 4);
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.denomination-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0px;
+  max-width: 280px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    max-width: 360px;
+  }
+
+  .denomination-container {
+    max-width: 330px;
+  }
+}
